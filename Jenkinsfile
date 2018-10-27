@@ -1,7 +1,7 @@
 
 node('windows-agent')
 {
-    stages {
+    
         stage('---clean---') { 
             steps {
                 bat "mvn clean"
@@ -17,5 +17,4 @@ node('windows-agent')
                 bat "mvn package" 
             }
         }
-    }
 }
