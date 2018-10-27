@@ -1,4 +1,4 @@
-pipeline {
+
    node('windows-agent') 
     stages {
         stage('---clean---') { 
@@ -17,4 +17,3 @@ pipeline {
             }
         }
     }
-}
