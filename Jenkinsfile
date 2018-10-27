@@ -1,5 +1,6 @@
 
-   node('windows-agent') 
+node('windows-agent')
+{
     stages {
         stage('---clean---') { 
             steps {
@@ -17,3 +18,4 @@
             }
         }
     }
+}
